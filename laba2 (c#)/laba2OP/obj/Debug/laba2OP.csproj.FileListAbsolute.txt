@@ -1,0 +1,7 @@
+C:\Users\alosh\RiderProjects\laba2OP\laba2OP\bin\Debug\laba2OP.exe
+C:\Users\alosh\RiderProjects\laba2OP\laba2OP\bin\Debug\laba2OP.pdb
+C:\Users\alosh\RiderProjects\laba2OP\laba2OP\obj\Debug\laba2OP.csproj.AssemblyReference.cache
+C:\Users\alosh\RiderProjects\laba2OP\laba2OP\obj\Debug\laba2OP.csproj.SuggestedBindingRedirects.cache
+C:\Users\alosh\RiderProjects\laba2OP\laba2OP\obj\Debug\laba2OP.csproj.CoreCompileInputs.cache
+C:\Users\alosh\RiderProjects\laba2OP\laba2OP\obj\Debug\laba2OP.exe
+C:\Users\alosh\RiderProjects\laba2OP\laba2OP\obj\Debug\laba2OP.pdb
