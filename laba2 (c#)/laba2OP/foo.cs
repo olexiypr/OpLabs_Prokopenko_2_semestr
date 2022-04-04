@@ -8,7 +8,7 @@ namespace foo
 {
     class Module_Write
     {
-        public static int addSlave(string nameFile, int count)
+        public static int addWorker(string nameFile, int count)
         {
             int a;
             Console.WriteLine("Якщо ви хочете додати працівників натисніть 1: ");

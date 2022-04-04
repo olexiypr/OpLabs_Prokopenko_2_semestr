@@ -57,10 +57,6 @@ namespace laba2OP
             }
             return now.Year-yy;
         }
-        ~Worker()
-        {
-            
-        }
 
         public int GetMonth()
         {
