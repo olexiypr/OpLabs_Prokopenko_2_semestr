@@ -20,11 +20,11 @@ namespace laba3
             List<Book> filteredLib = Functions.filter(library);
             if (filteredLib.Count == 0)
             {
-                Console.WriteLine("В даному діапазоні років немає жодної книги!");
+                Console.WriteLine("-----В даному діапазоні років немає жодної книги!-----");
             }
             else
             {
-                Console.WriteLine("Книга з найбільшою кількістю стрінок: ");
+                Console.WriteLine("-----Книга з найбільшою кількістю стрінок:-----");
                 Functions.findMaxCountPages(filteredLib).Print();
             }
         }

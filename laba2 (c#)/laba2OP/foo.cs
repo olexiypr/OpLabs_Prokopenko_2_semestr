@@ -11,7 +11,7 @@ namespace foo
         public static int addWorker(string nameFile, int count)
         {
             int a;
-            Console.WriteLine("Якщо ви хочете додати працівників натисніть 1: ");
+            Console.WriteLine("-----Якщо ви хочете додати працівників натисніть 1:-----");
             a=Convert.ToInt32(Console.ReadLine());
             if (a==1)
             {

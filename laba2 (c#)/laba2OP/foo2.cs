@@ -11,7 +11,7 @@ namespace foo2
 {
     class Module_Read
     {
-        public static int DeSer(string nameInput , int size, string nameResult)
+        public static int DeSerialize(string nameInput , int size, string nameResult)
         {
             DateTime now = DateTime.Now;
             int month = now.Month, count=0;
@@ -30,20 +30,19 @@ namespace foo2
             return count;
         }
 
-        private static void filter(Worker some, string nameResult, int month, ref int count)
+        private static void filter(Worker some, string nameResult, int month, ref int count)  //запис в файл або виведення на екран
         {
-            if (some.GetStaj() >= 5 && some.GetMonth() == month)
+            if (WorkWithStruct.GetStaj(some.dateStartWork) >= 5 && WorkWithStruct.GetMonth(some.birthday) == month)
             {
-                some.Print();
+                WorkWithStruct.Print(some.name, some.birthday, some.dateStartWork);
             }
 
-            if (some.GetAge()-some.GetStaj()<=25 && some.GetStaj()>=10)
+            if (WorkWithStruct.GetAge(some.birthday)-WorkWithStruct.GetStaj(some.dateStartWork)<=25 && WorkWithStruct.GetStaj(some.dateStartWork)>=10)
             {
                 count++;
                 Module_Write.writeObjectInFile(some, nameResult);
             }
         }
-
         public static void printFile(string nameFile, int size)
         {
             BinaryFormatter formatter = new BinaryFormatter();
@@ -52,7 +51,7 @@ namespace foo2
                 for (int i = 0; i < size; i++)
                 {
                     Worker some = (Worker) formatter.Deserialize(fs);
-                    some.Print();
+                    WorkWithStruct.Print(some.name, some.birthday, some.dateStartWork);
                 }
                 fs.Close();
             }
