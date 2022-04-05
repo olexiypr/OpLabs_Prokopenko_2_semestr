@@ -6,9 +6,7 @@ namespace laba2OP
     [Serializable]
     public class Worker
     {
-        private string name;
-        private string birthday;
-        private string dateStartWork;
+        private string name, birthday, dateStartWork;
 
         public Worker(string a, string b, string c)
         {
