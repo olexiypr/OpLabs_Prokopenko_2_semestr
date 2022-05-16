@@ -2,8 +2,7 @@
 using System.Globalization;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
-using foo;
-using foo2;
+
 namespace laba2OP
 {
     internal class Program

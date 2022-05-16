@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Security.AccessControl;
 
+
 namespace laba4
 {
     public class BoolMatrix
@@ -75,7 +76,7 @@ namespace laba4
             {
                 for (int j = 0; j < sizeX; j++)
                 {
-                    if (matrix[i, j] == true)
+                    if (matrix[i, j])
                     {
                         count++;
                     }
@@ -97,7 +98,7 @@ namespace laba4
                     }
                 }
             }
-
+            
             return matrix1;
         }
 

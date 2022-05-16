@@ -5,7 +5,7 @@ def writeInFile (name, arr):
         writer = open(name, 'ab') #відкриття файлу на дозапис байтів
         for i in arr:
             byteObj = (i+'\n').encode() #перетворення рядка на байти
-            writer.write(byteObj)
+            writer.write(byteObj) #запис в файл
 
 def abbInFile (name):
     a = int(input("-----Для додавання працівника натисніть 1: "))
@@ -18,7 +18,7 @@ def abbInFile (name):
             else:
                 byteObj = (i + '\n').encode() #перетворення рядка на байти
                 writer.write(byteObj)
-                # writeInFile(name, i)
+
 
 def readFile (name):
     if os.path.exists(name): #перевірка чи існує такий файл

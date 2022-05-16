@@ -1,13 +1,8 @@
-﻿using System.Data.Common;
-using System;
+﻿using System;
 using System.IO;
-using System.Runtime.ExceptionServices;
-using System.Runtime.Serialization.Formatters;
 using System.Runtime.Serialization.Formatters.Binary;
-using foo;
-using laba2OP;
 
-namespace foo2
+namespace laba2OP
 {
     class Module_Read
     {

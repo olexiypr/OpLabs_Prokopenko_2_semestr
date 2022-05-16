@@ -1,10 +1,8 @@
-﻿
-using System;
+﻿using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
-using laba2OP;
-using foo2;
-namespace foo
+
+namespace laba2OP
 {
     class Module_Write
     {
@@ -40,7 +38,7 @@ namespace foo
         public static void writeObjectInFile(Worker some, string name)
         {
             BinaryFormatter write = new BinaryFormatter();
-            using (FileStream fs=new FileStream(name, FileMode.OpenOrCreate | FileMode.Append)) 
+            using (FileStream fs=new FileStream(name, FileMode.Append)) 
             {
                 write.Serialize(fs, some);
                 fs.Close();
@@ -49,7 +47,7 @@ namespace foo
 
         public static void cleanFile(string name)
         {
-            FileStream del = new FileStream(name, FileMode.Truncate);
+            FileStream del = new FileStream(name, FileMode.Create);
             del.Close();
         }
     }
