@@ -28,8 +28,8 @@ namespace ConsoleApplication3
                 {
                     currentAccounts[j].amountOfMoney += depositAccounts[j].AccrualOfInterest(); //перерахунок нарахованих відсотків
                     currentAccounts[j].AddDate(Date.GetDate()); //запис дати операцій
-                    currentAccounts[j].ToString();  //виведення інформації в консоль
-                    depositAccounts[j].ToString();  //виведення інформації в консоль
+                    Console.WriteLine(currentAccounts[j].ToString());  //виведення інформації в консоль
+                    Console.WriteLine(depositAccounts[j].ToString()); //виведення інформації в консоль
                     depositAccounts[j].CountMonth--;  //зменшення на місяць сроку депозиту
                 }
                 Date.NextMonth(); //наступний місяць
