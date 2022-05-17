@@ -73,6 +73,11 @@ namespace ConsoleApplication3
             amountOfMoney += countMoney;
         }
 
+        public override void WithdrawMoney(int countMoney)
+        {
+            amountOfMoney -= countMoney;
+        }
+
         public override string ToString() //виведення інформації
         {
             return ($"Deposit account: ID: {_id} count month: {countMonth}, amount money: {amountOfMoney}, percent: {countPercent} status: {status}");

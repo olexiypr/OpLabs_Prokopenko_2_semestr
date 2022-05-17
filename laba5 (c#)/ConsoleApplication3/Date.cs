@@ -2,7 +2,7 @@
 
 namespace ConsoleApplication3
 {
-    public static class Date
+    public static class Date  //кла для власної дати та часу
     {
         public static int year{ get; private set; }
         public static int month { get; private set; }
@@ -26,7 +26,7 @@ namespace ConsoleApplication3
             }
         }
 
-        public static string GetDate()
+        public static string GetDate()  //отримання власної поточної дати 
         {
             return day.ToString() + "-" + month.ToString() + "-" + year.ToString();
         }
