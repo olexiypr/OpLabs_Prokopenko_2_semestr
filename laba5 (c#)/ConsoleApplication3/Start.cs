@@ -43,7 +43,6 @@ namespace ConsoleApplication3
             Console.WriteLine("For add accounts press 'a'");
             if (Console.ReadKey().Key == ConsoleKey.A)
             {
-               
                 while (true)
                 {
                     Console.WriteLine("Enter name bank: ");

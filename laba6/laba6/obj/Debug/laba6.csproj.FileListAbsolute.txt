@@ -1,0 +1,14 @@
+C:\Users\alosh\RiderProjects\laba6\laba6\bin\Debug\laba6.exe
+C:\Users\alosh\RiderProjects\laba6\laba6\bin\Debug\laba6.pdb
+C:\Users\alosh\RiderProjects\laba6\laba6\obj\Debug\laba6.csproj.AssemblyReference.cache
+C:\Users\alosh\RiderProjects\laba6\laba6\obj\Debug\laba6.csproj.SuggestedBindingRedirects.cache
+C:\Users\alosh\RiderProjects\laba6\laba6\obj\Debug\laba6.csproj.CoreCompileInputs.cache
+C:\Users\alosh\RiderProjects\laba6\laba6\obj\Debug\laba6.exe
+C:\Users\alosh\RiderProjects\laba6\laba6\obj\Debug\laba6.pdb
+C:\Users\alosh\Лаби ОП (КОД)\laba6\laba6\bin\Debug\laba6.exe
+C:\Users\alosh\Лаби ОП (КОД)\laba6\laba6\bin\Debug\laba6.pdb
+C:\Users\alosh\Лаби ОП (КОД)\laba6\laba6\obj\Debug\laba6.csproj.AssemblyReference.cache
+C:\Users\alosh\Лаби ОП (КОД)\laba6\laba6\obj\Debug\laba6.csproj.SuggestedBindingRedirects.cache
+C:\Users\alosh\Лаби ОП (КОД)\laba6\laba6\obj\Debug\laba6.csproj.CoreCompileInputs.cache
+C:\Users\alosh\Лаби ОП (КОД)\laba6\laba6\obj\Debug\laba6.exe
+C:\Users\alosh\Лаби ОП (КОД)\laba6\laba6\obj\Debug\laba6.pdb
